@@ -11,7 +11,11 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo 'Hi! what your name'
+        echo 'Hi! what your name';
+        echo '<hr>';
+        
+        $arr=['delphi','php','java','javacript'];
+        print_r($arr);
         ?>
     </body>
 </html>
